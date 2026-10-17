@@ -40,12 +40,12 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`Cid`, `Customer_Name`, `custno`, `Address`, `Username`) VALUES
-(1, 'Elvicia', '9036848029', 'Mangalore', 'Elvicia'),
-(2, 'Vidya', '9986558320', 'Adyar', 'Vidya'),
-(3, 'Shruti', '9036848029', 'Adyar', 'Shruti'),
-(4, 'tanuh', '9036848029', 'kadri', 'tanuh'),
-(5, 'sinchana', '9036848029', 'kadri', 'sinchan'),
-(6, 'Kareena', '9986558320', 'london', 'Kareena');
+(1, 'XYZ', '1234567899', 'Mangalore', 'XYX'),
+(2, 'ABC', '1234567899', 'Adyar', 'ABC'),
+(3, 'Shruti', '1234567899', 'Adyar', 'Shruti'),
+(4, 'Rahul', '1234567899', 'kadri', 'Rahul'),
+(5, 'Ram', '1234567899', 'kadri', 'Ram'),
+(6, 'Kareena', '1234567899', 'london', 'Kareena');
 
 -- --------------------------------------------------------
 
@@ -209,14 +209,14 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`Id`, `username`, `password`) VALUES
-(1, 'Elvicia', '12345678'),
-(2, 'Vidya', '123456'),
+(1, 'ABC', '12345678'),
+(2, 'XYZ', '123456'),
 (3, 'Shruti', '12345678'),
-(4, 'tanu', '123456'),
-(5, 'tanuh', 'tanuh@123'),
-(6, 'sinchan', '123456'),
+(4, 'Rahul', '123456'),
+(5, 'Ram', '45677'),
+(6, 'XXX', '123456'),
 (7, 'hello', '123456'),
-(8, 'alika', '123456'),
+(8, 'zzz', '123456'),
 (9, 'Kareena', 'Kareena');
 
 --
